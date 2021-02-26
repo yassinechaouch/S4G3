@@ -8,5 +8,5 @@ GPIO.setup(sensor, GPIO.IN)
 while True:
     if GPIO.input(sensor):
         GPIO.output(led,GPIO.HIGH)
-    else
+    else:
         GPIO.output(led,GPIO.LOW)
